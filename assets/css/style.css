@@ -13,6 +13,10 @@ body {
   border: 2px solid black;
 }
 
+#logocol {
+  background-color: black;
+}
+
 #logo h2 {
   color: #ffffff;
   background: black;

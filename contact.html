@@ -1,68 +1,95 @@
 <!doctype html>
 <html lang="en-us">
 
-<head>
-  <meta charset="UTF-8">
-  <title>Contact | Carolyn Moneymaker</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <title>About | Carolyn Moneymaker</title>
+        <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/lux/bootstrap.min.css" rel="stylesheet" integrity="sha384-hVpXlpdRmJ+uXGwD5W6HZMnR9ENcKVRn855pPbuI/mwPIEKAuKgTKgGksVGmlAvt" crossorigin="anonymous">  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      
+      </head>
 
 <body>
-
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Carolyn Moneymaker</a>
-      <nav>
-        <ul class="nav justify-content-end">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </nav>
+    <header id="masthead">
+        <div class="container">
+          <div class="row">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row">
+                          <div class="col-md-12">
+                            <a href="index.html" id="logo">
+                              <h2>Carolyn Moneymaker</h2>
+                            </a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row" id="nav">
+                          <nav>
+                            <ul class="nav justify-content-end">
+                              <div class="col-md-3"></div>
+                              <div class="col-md-3">
+                                <li class="nav-item">
+                                 <a class="nav-link" href="index.html">About</a>
+                                </li>
+                              </div>
+                              <div class="col-md-3">
+                                <li class="nav-item">
+                                  <a class="nav-link" href="portfolio.html">Portfolio</a>
+                                </li>
+                              </div>
+                              <div class="col-md-3">
+                                <li class="nav-item">
+                                 <a class="nav-link" href="contact.html">Contact</a>
+                                </li>
+                              </div>
+                            </ul>
+                          </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </header>
+  
+  <div class="container" id="main-container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>Contact</h1>
+        <hr>
+        <div class="w-100"></div>
+      </div>
     </div>
-  </header>
-
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>Contact</h1>
-
-      <form id="contact-form">
-        <ul>
-          <li>
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
-          </li>
-          <li>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
-          </li>
-          <li>
-            <label for="message">Message</label>
-            <textarea id="message" name="message" required="required"></textarea>
-          </li>
-        </ul>
-        <input type="submit">
-      </form>
-
-    </section>
-
-  </div>
+    <div class="row">
+      <div class="col">
+          <form id="form">
+              <div class="form-group">
+                <label for="formGroupExampleInput">Name</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="John Smith">
+              </div>
+              <div class="form-group">
+                <label for="formGroupExampleInput2">Email</label>
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="example@gmail.com">
+              </div>
+              <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Message</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <div class="form-submit">
+                  <button type="button" class="btn btn-primary">Submit</button>
+              </div>
+            </form> 
+    </div>
 
   <footer>
-      <div class="container-fluid">
+      <div class="container-fluid fixed-bottom" id="footer">
         <div class="row">
           <div class="col-md-12">
-            Copyright &copy; 2019 Carolyn Moneymaker
+            <p>Copyright &copy; 2019 Carolyn Moneymaker</p>
           </div>
         </div>
       </div>

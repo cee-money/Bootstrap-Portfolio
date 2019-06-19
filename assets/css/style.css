@@ -54,6 +54,11 @@ h3 {
   bottom: 50px;
 }
 
+h6{
+  position: relative;
+  bottom: 35px;
+}
+
 p {
   color: gray;
   font-size: 18px;
